@@ -1,0 +1,10 @@
+Projeto de Escalonamento Inteligente de Suporte: Roteamento e Priorização Automatizados
+Este código agora inclui a importação da biblioteca nltk e das classes CountVectorizer e MultinomialNB do sklearn para a tarefa de classificação de texto. Foram adicionados dados de treinamento para o modelo de classificação Naive Bayes, onde cada exemplo de treinamento consiste em um ticket e sua respectiva categoria.
+
+Os dados de treinamento são pré-processados usando a tokenização e remoção de stopwords da biblioteca nltk. Em seguida, os textos são convertidos em vetores numéricos usando a representação Bag of Words do CountVectorizer.
+
+O modelo de classificação Naive Bayes é treinado com os vetores de texto e suas categorias correspondentes.
+
+Finalmente, um exemplo de classificação de um novo ticket é apresentado, onde o texto do ticket é transformado em um vetor usando o vetorizador treinado anteriormente, e o modelo de classificação Naive Bayes é usado para prever a categoria do ticket.
+
+Certifique-se de ter as bibliotecas nltk e scikit-learn instaladas para executar o código corretamente. Além disso, é necessário baixar os recursos adicionais do nltk usando os comandos nltk.download('punkt') e nltk.download('stopwords') antes de executar o código.
